@@ -1,0 +1,43 @@
+/*seccion sobre mi*/
+.sobremi {
+    background: #eaf2fd;
+    width: 100vw;
+    margin-top: 2rem;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+.sobremi--titulo {
+    font-size: 22px;
+}
+
+.sobremi--parrafo {
+    font-size: 22px;
+    gap: top;
+    text-align: justify;
+ 
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .sobremi--contenedor {
+        width: 90vw;
+    }
+    
+    .sobremi--parrafo {
+        width: 90vw;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .sobremi--titulo {
+        font-size: 1rem;
+    }
+
+    .sobremi--parrafo {
+        font-size: 0.8rem;
+    }    
+}
+
